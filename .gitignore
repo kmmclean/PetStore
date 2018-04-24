@@ -10,3 +10,6 @@ launchSettings.json
 
 # OS files
 .DS_Store
+
+# Sqlite files
+*.db
