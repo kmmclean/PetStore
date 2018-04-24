@@ -7,7 +7,7 @@ namespace PetStore.Web.Models.Entities
     {
         public long Id { get; set; }
         public string CustomerId { get; set; }
-        public DateTime OrderDate { get; set; }
-        List<OrderItem> Items { get; set; }
+        public DateTime OrderDate { get; set; } = DateTime.Now;
+        public List<OrderItem> Items { get; set; }
     }
 }
